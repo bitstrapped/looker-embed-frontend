@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav-bar {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 20px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-link {
+  color: #007bff; /* Bootstrap's primary link color */
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
